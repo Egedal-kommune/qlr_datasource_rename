@@ -2,7 +2,7 @@ from pathlib import Path
 from loguru import logger
 import re
 
-class QlrReplace:
+class Qlr:
 
     def __init__(self, path, substitutions):
         self.path = Path(path)
